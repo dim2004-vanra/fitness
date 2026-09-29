@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness website </title>
+</head>
+  <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+ 
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a18ce1100e.js" crossorigin="anonymous"></script>
+<style>
+    .clrb{
+    color: black;
+}
+.h1200{height: 1200px;}
+.bg1{
+    background-image:linear-gradient(rgba(0, 68, 255, 0.562) 15%, rgba(0, 195, 255, 0.637) 80% ) ,url(img/img1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+ .bg2{
+     background-image:linear-gradient(rgba(0, 68, 255, 0.61) 5%, rgba(0, 195, 255, 0.685) 80% ) , url(img2.jpg);
+    background-position: center; 
+      background-repeat: no-repeat;
+}
+.bg3{
+    background-image:linear-gradient(rgba(0, 195, 255, 0.774),rgba(0, 68, 255, 0.63))  ,url(img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bgi2{
+    background-image:linear-gradient(rgba(0, 68, 255, 0.61) 5%, rgba(0, 195, 255, 0.685) 80% ) , url(img/pattern-01-free-img.png);
+    background-position: center;
+
+}
+.bg4{
+    background-image:linear-gradient( rgba(0, 68, 255, 0.637) , rgba(0, 195, 255, 0.753) ) ,url(img/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgr{
+    background-color: #76d443;
+}
+.clr3{
+    background-color: #76d443;
+}
+
+.bgi5{
+    background-image: linear-gradient( rgba(0, 68, 255, 0.562) , rgba(0, 195, 255, 0.753) ) ,url(img/bg-06-free-img.jpg);
+     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bgi6{
+    background-image: linear-gradient(rgba(0, 195, 255, 0.925) 15%, rgba(0, 68, 255, 0.767) ) ,url(images/18.JPG);
+     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fonts{
+    font-size: 140px;
+    letter-spacing: 5px;
+}
+
+.btn1{
+    border: none;
+    background-color: #76d443;
+    color: white;
+    padding: 15px;
+    padding-inline: 40px;
+}
+
+.clr5{
+    color: white;
+}
+
+.clr5:hover{
+    color: #76d443;
+}
+
+
+.btn1:hover{
+    background-color: #00c6c3;
+    color: white;
+}
+
+.h800{
+    height: 800px;
+}
+
+.clr{
+    color: #76d443;
+}
+
+.bgr{
+    background-color: #76d443;
+}
+
+.clr1{
+    color: #e7e7e7;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.bor{
+    border-bottom: 1px dashed white;
+}
+
+.size{
+    font-size: 30px;
+}
+
+.btn2{
+    background-color: white;
+    color: #aca9a9;
+    padding: 8px;
+    padding-inline: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn2:hover{
+    background-color: #03bec5;
+    color: white;
+}
+
+.bgr1{
+    background-color:rgba(0, 68, 255, 0.87)  ;
+}
+
+.dis{
+    display: flex;
+}
+
+.div{
+    width: 50px;
+    height: 1px;
+    background-color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background: #ddd;
+}
+
+.bor-dash{
+    border: 1px dashed white;
+}
+
+.bgi7{
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-attachment: scroll;
+}
+
+.clr2{
+    color: #00c6c3;
+}
+
+.out{
+    outline: none;
+}
+
+.clr3{
+    background-color: #76d443;
+}
+
+.fs120{font-size: 120px;}
+.btn1:hover{
+    background-color: #00c6c3;
+    color: white;
+}
+.btn1{
+    border: none;
+    background-color: #76d443;
+    color: white;
+    padding: 15px;
+    padding-inline: 40px;
+}
+.clr2{
+    color: #00c6c3;
+}
+.clrw{color: white;}
+
+
+.h{
+    background-image: url(img/bg-heading-01-free-img.png);
+    background-repeat: no-repeat;
+   
+    
+}
+.a{background-image: url(img/bg-heading-02-free-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b{
+    background-image: url(img/bg-heading-02-free-img\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c{
+    background-image: url(img/bg-heading-02-free-img\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d{
+    background-image: url(img/bg-heading-02-free-img\ \(3\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 976px) {
+
+    .fonts {
+        font-size: 90px;
+        letter-spacing: 3px;
+    }
+
+    .fs120 {
+        font-size: 80px;
+    }
+
+    .h1200,
+    .h800 {
+        height: auto;
+    }
+
+    .btn1 {
+        padding: 12px 30px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 15px;
+        margin-left: 12px;
+    }
+
+    .size {
+        font-size: 24px;
+    }
+
+    .div {
+        width: 40px;
+    }
+    .btn1 {
+        width: 30%;
+        padding: 12px;
+    }
+     img {
+        width: 100%;
+        height: auto;
+    }
+
+    
+    }
+
+    
+
+
+@media (max-width: 576px) {
+
+    .fonts {
+        font-size: 45px;
+        letter-spacing: 2px;
+         text-align: center; 
+    }
+    
+
+    .fs120 {
+        font-size: 40px;
+    }
+
+    .display-4 {
+        font-size: 1.6rem;
+        text-align: center; 
+    }
+
+    .h1200,
+    .h800 {
+        height: auto;
+    }
+
+    .btn1 {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* .navbar-nav {
+        text-align: center;
+    } */
+
+    /* .navbar-nav .nav-link {
+        margin-left: 0 !important;
+        padding: 10px 0;
+    } */
+
+    .div {
+        width: 30px;
+        margin: auto;
+    }
+
+    .size {
+        font-size: 20px;
+    }
+
+    .bg1 p {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiper-slide {
+        font-size: 16px;
+    }
+
+    #contact .row {
+        flex-direction: column;
+    }
+}
+
+
+</style>
+<body>
+     <div class="container-fluid  bg1 p-0 m-0 bg1 ">
+        <div class="container-lg mx-auto row">
+            <nav class="navbar navbar-expand-lg navbar-dark mb-5">
+                <div class="container-fluid ps-lg-5 pe-lg-5">
+                    <a class="navbar-brand" href="javascript:void(0)"><img src="img/logo.png" alt="" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav ms-auto">
+                                <li class="nav-item ms-3">
+                                    <a class="nav-link text-white" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white ms-3" href="#about">ABOUT ME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white ms-3" href="#training">TRAINING</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white ms-3" href="#rates">RATES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white ms-3" href="#client">CLIENT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white ms-3" href="#testimonials">TESTIMONIALS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white ms-3" href="#gallery">GALLERY</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white ms-3" href="#contact">CONTACT</a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+            </div>
+            <div class=" container">
+                        <p class="h4 clrw">MAVERICK <span class="clr2">KAAN</span></p>
+                    <p class="fonts clrw"><b>FITNESS</b></p>
+                    <p class=" fonts clrw h col-md-8">TRAINER</p>
+                    <div class="container">
+                        <div class="div mt-5"></div>
+                    </div>
+                    <p class="h2 fst-italic mt-5 clr5"><b>LET'S SET & REACH YOUR FITNESS GOALS</b></p>
+                    <div class="container">
+                        <button class=" btn1 mt-5 mb-5">CONTACT ME</button>
+                        </div>
+                        </div>
+                         <div class="container-fluid bg2" id="about">
+        <div class="container-lg p-0 mx-auto row p-lg-5">
+            <div class="col-lg-12 p-0 row m-0 p-lg-5 pt-5">
+                <div class="col-lg-6 pb-5 order-1 order-lg-0">
+                    <img src="img/img2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-12 p-lg-5 text-white pb-5">
+                    <p class="h6">.01</p>
+                    <div class=" col-md-11 bgi7">
+                        <p class="display-4 mt-5 a"><b>ABOUT ME</b></p>
+                    </div>
+                           <P class="mt-5">
+                        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+                    </P>
+
+                    <P class="mt-5">
+                        Bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.
+                    </P>
+                    <p class="mt-5">
+                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.
+                    </p>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+                   <div class="container-fluid bg3 text-white" id="training">
+        <div class="container-lg p-0 mx-auto row p-lg-5">
+            <div class="col-lg-12 p-0 m-0 row p-md-5 pt-5 pb-5">
+
+                <div class="col-md-12">
+                    <h6>.02</h6>
+                    <div class="col-md-4 col-6 mt-5">
+                        <p class="display-4 bgi7 h"><b>TRAINING</b></p>
+                    </div>
+                 </div>  
+                <div class="col-lg-5 col-md-6 me-lg-5">
+                
+                        <div class="container-fluid p-0 m-0 mt-5 pt-5">
+                            <h3 class="m-0">ACTIVE RECOVERY</h3>
+                            <h6 class="clr ">MON-FRI: 8:00 - 09:30</h6>
+                            <P>
+                                This is one way to bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.				
+                            </P>
+                        </div>
+
+                        <div class="container-fluid p-0 m-0 mt-5 pt-5">
+                            <h3 class="m-0">CIRCUIT</h3>
+                            <h6 class="clr ">MON-FRI: 10:30 - 12:00</h6>
+                            <P>
+                                This is one way to bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.				
+                            </P>
+                             </div>
+
+                        <div class="container-fluid p-0 m-0 mt-5 pt-5">
+                            <h3 class="m-0">CROSS TRAINING</h3>
+                            <h6 class="clr ">MON-FRI: 13:00 - 14:30</h6>
+                            <P>
+                                This is one way to bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.				
+                            </P>
+                        </div>
+
+                </div>
+                <div class="col-lg-5 col-md-6 ms-lg-5">
+                        <div class="container-fluid p-0 m-0 mt-5 pt-5">
+                            <h3 class="m-0">AEROBIC EXERCISE</h3>
+                            <h6 class="clr ">MON-FRI: 9:30 - 10:30</h6>
+                            <P>
+                                This is one way to bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.				
+                            </P>
+                        </div>
+
+                        <div class="container-fluid p-0 m-0 mt-5 pt-5">
+                            <h3 class="m-0">COMPOUND EXERCISE</h3>
+                            <h6 class="clr ">MON-FRI: 12:00 - 13:00</h6>
+                            <P>
+                                This is one way to bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.				
+                            </P>
+                        </div>
+
+                        <div class="container-fluid p-0 m-0 mt-5 pt-5">
+                            <h3 class="m-0">FUNCTIONAL MOVES</h3>
+                            <h6 class="clr ">MON-FRI: 14:30 - 16:00</h6>
+                            <P>
+                                This is one way to bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.				
+                            </P>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+          <div class="container-fluid bgi2   text-white" id="rates">
+        <div class="container-lg mx-auto p-0 row p-lg-5 pt-5 pb-5">
+            <div class="col-lg-12 row justify-content-center p-0 p-lg-5 m-0">
+                <div class="col-lg-8 col-md-8 text-center">
+                    <h6>.03</h6>
+                    <div class="col-md-12 col-lg-12 mt-5">
+                        <p class="display-4 h"><b>TRAINING RATES</b></p>
+                    </div>
+                    <div class="div mx-auto mt-5"></div>
+                    <p class="mt-5">Bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                </div>
+                 <div class="col-md-12 row mt-5 ">
+                    <div class="col-md-4  align-content-center pb-5 pb-md-0">
+                        <div class="col-md-12 row p-lg-4 p-md-1 p-4">
+                            <h2 class="clr1">$250</h2>
+                            <h5 class="mt-3">DIET OR FITNESS REPORT</h5>
+                            <div class="container mt-4">
+                                <div class="div"></div>
+                            </div>
+                            <div class="col-md-2 col-2 mt-5 ">
+                                <i class="fa-solid fa-check clr "></i>
+                            </div>
+                            <div class="col-md-10 col-10 mt-5 p-0 ">
+                               <h6 class="m-0"> Genetic sample test kit</h6>
+                            </div>
+                            <div class="col-md-2 col-2 align-content-center m-0">
+                                <i class="fa-solid fa-check clr"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class="m-0">Your genetic diet OR exercise report </h6>
+                            </div>
+                              <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check clr"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class=""> Diet plan OR exercise suggestion</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-5 pb-md-0">
+                        <div class="col-md-12 row p-lg-4 p-md-1 p-4 bgr">
+                            <h2 class="clr1">$500</h2>
+                            <h5 class="mt-3">DIET OR FITNESS MAX</h5>
+                           <div class="container mt-4">
+                                <div class="div"></div>
+                           </div>
+                            <div class="col-md-2 col-2 mt-5">
+                                <i class="fa-solid fa-check "></i>
+                            </div>
+                            <div class="col-md-10 col-10 mt-5 p-0">
+                               <h6 class="m-0"> Genetic sample test kit</h6>
+                            </div>
+                            <div class="col-md-2 col-2 align-content-center m-0">
+                                <i class="fa-solid fa-check text-white"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0 ">
+                               <h6 class="m-0">Your genetic diet AND exercise report </h6>
+                            </div>
+                               <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check text-white"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class=""> Diet AND exercise summary infographic</h6>
+                            </div>
+                            <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check text-white"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class=""> Diet plan</h6>
+                            </div>
+                            <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check text-white"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class="">Exercise suggestion</h6>
+                            </div>
+                            <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check text-white"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class="">In Body Analysis</h6>
+                            </div>
+                            <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check text-white"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class="">Weekly check ups</h6>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-4 align-content-center">
+                        <div class="col-md-12 row p-lg-4 p-md-1 p-4">
+                           <h2 class="clr1">$450</h2>
+                            <h5 class="mt-3">DIET OR FITNESS REPORT</h5>
+                           <div class="container mt-4">
+                                <div class="div"></div>
+                            </div>
+                            <div class="col-md-2 col-2 mt-5">
+                                <i class="fa-solid fa-check clr "></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0 mt-5">
+                               <h6 class="m-0"> Genetic sample test kit</h6>
+                            </div>
+                            <div class="col-md-2 col-2 align-content-center m-0">
+                                <i class="fa-solid fa-check clr"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class="m-0">Your genetic diet AND exercise report </h6>
+                            </div>
+                              <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check clr"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class=""> Diet AND exercise summary infographic</h6>
+                            </div>
+                            <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check clr"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class=""> Diet plan</h6>
+                            </div>
+                            <div class="col-md-2 col-2">
+                                <i class="fa-solid fa-check clr"></i>
+                            </div>
+                            <div class="col-md-10 col-10 p-0">
+                               <h6 class="">Exercise suggestion</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-4 col-md-6 text-center mt-5">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h6 class="mt-3">ALL ABOVE PLAN S INCLUDES PERSONAL COUNSELING WITH ME AS WELL AS MY ASSOCIATES.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+                       <div class="container-fluid bg4 text-white" id="client">
+        <div class="container-lg mx-auto p-lg-5 p-0 row">
+            <div class="col-lg-12 row justify-content-center p-0 p-lg-5 m-0">
+                    <div class="col-md-6  pt-5 text-center mb-5">
+                        <h6>.04</h6>
+                        <div class="col-md-12 bgi1 mt-5">
+                            <p class="display-4 h"><b>MY CLIENTS</b></p>
+                        </div>
+                        <div class="div mx-auto mt-5"></div>
+                        <p class="mt-5">Bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                    </div>
+                      <div class="col-lg-12 row mt-5 p-0">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 pb-5">
+                            <img src="img/img5.jpg" alt="" class="img-fluid">
+                            <h5 class="ms-3 mt-2">CRYSTAL MAY</h5>
+                            <div class="div ms-3 mt-3"></div>
+                            <P class="ms-3 mt-3">Actress</P>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 pb-5">
+                            <img src="img/img6.jpg" alt="" class="img-fluid">
+                            <h5 class="ms-3 mt-2">TERRY OLIVER</h5>
+                            <div class="div ms-3 mt-3"></div>
+                            <P class="ms-3 mt-3">Athlet</P>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 pb-5">
+                            <img src="img/img7.jpg" alt="" class="img-fluid">
+                            <h5 class="ms-3 mt-2">JANICE CLARK</h5>
+                            <div class="div ms-3 mt-3"></div>
+                            <P class="ms-3 mt-3">Model</P>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6 pb-5">
+                            <img src="img/img8.jpg" alt="" class="img-fluid">
+                            <h5 class="ms-3 mt-2">ROY FREEEMAN</h5>
+                            <div class="div ms-3 mt-3"></div>
+                            <P class="ms-3 mt-3">Developer</P>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+     <div class="container-fluid bgi5 text-white" id="testimonials">
+        <div class="container-lg mx-auto p-0 row p-lg-5 pb-5">
+            <div class="col-lg-12 row p-0 justify-content-center p-md-5 m-0">
+                <div class="col-md-12 pt-5 mb-5 pb-5 text-center mx-auto">
+                        <h6>.05</h6>
+                        <div class="col-md-4 bgi7 mt-5 mx-auto">
+                            <p class="display-4 b"><b>TESTIMONIALS</b></p>
+                        </div>
+                        <div class="div mx-auto mt-5"></div>
+                </div>
+
+                <div class="col-md-12 row mt-5 pt-5 p-0 m-0 ">
+                    
+                    <div class="col-md-12 bor row p-0 m-0">
+                        <div class="col-md-3 order-1 order-md-0 mt-4 mt-md-0">
+                            <i class="fa-solid fa-quote-right clr size"></i>
+                            <h5>JUDY VALDAZ</h5>
+                            <div class="div mt-3"></div>
+                            <p class=" mt-2">Dancer</p>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>
+                                Auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 bor row p-0 m-0 pt-5">
+                        <div class="col-md-3 order-1 order-md-0 mt-4 mt-md-0">
+                            <i class="fa-solid fa-quote-right clr size"></i>
+                            <h5>TERRY BARRETT</h5>
+                            <div class="div mt-3"></div>
+                            <p class="mt-2">Boxer</p>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>
+									Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat.								
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 bor row p-0 m-0 pt-5">
+                        <div class="col-md-3 order-1 order-md-0 mt-4 mt-md-0">
+                            <i class="fa-solid fa-quote-right clr size"></i>
+                            <h5>KAYLE LAWSON</h5>
+                             <div class="div mt-3"></div>
+                            <p class="mt-2">Designer</p>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>
+									Consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+															
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 bor row p-0 m-0 pt-5">
+                        <div class="col-md-3 order-1 order-md-0 mt-4 mt-md-0">
+                            <i class="fa-solid fa-quote-right clr size"></i>
+                            <h5>JORDEN CARROLL</h5>
+                             <div class="div mt-3"></div>
+                            <p class="mt-2">Runner</p>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>
+									Bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.    								
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="container-fluid bgi2 text-white" id="gallery">
+        <div class="container-lg mx-auto row p-lg-5 p-0">
+            <div class="col-lg-12 row p-lg-5 m-0 mt-5 mb-5 p-0">
+                <div class="col-lg-6 col-md-9">
+                        <h6>.06</h6>
+                        <div class="col-md-10 bgi7 mt-5">
+                            <p class="display-4 c "><b>PHOTO GALLERY</b></p>
+                        </div>
+                         <div class="div mt-5"></div>
+                        <p class="mt-5">Bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <img src="img/gallery-02-free-img.jpg" class="img-fluid w-100">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/gallery-05-free-img.jpg" class="img-fluid w-100">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/gallery-06-free-img.jpg" class="img-fluid w-100">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/gallery-07-free-img.jpg" class="img-fluid w-100">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/gallery-04-free-img.jpg" class="img-fluid w-100">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/gallery-03-free-img.jpg" class="img-fluid w-100">
+        </div>
+
+    </div>
+
+    <!-- Navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+  
+
+    <div class="container-fluid text-white bgi6" id="contact">
+        <div class="container-lg mx-auto p-lg-5 row p-0">
+            <div class="col-lg-12 mt-5 row justify-content-center p-md-5 p-0 m-0">
+                <div class="col-lg-6 pb-5 row p-0">
+                    <div class="col-md-7 bgi7">
+                        <h1 class=" d">CONTACT ME</h1>
+                    </div>
+                    <div class="container mt-5">
+                         <div class="div mt-3"></div>
+                    </div>
+                    <P class="mt-5 mb-5">
+                    Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</P>
+
+                    <div class="col-md-1 col-1">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="col-md-11 col-11">929-242-6868</div>
+
+                    <div class="col-md-1 col-1">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="col-md-11 col-11">929-242-6868</div>
+
+                    <h1 class="mt-5">FOLLOW <span class="clr2">ME</span> </h1>
+                    <div class="col-md-12 mt-5">
+                        <a href="#"><button class="btn2"><i class="fa-brands fa-facebook-f"></i></button></a>
+                        <a href="#"><button class="btn2"><i class="fa-brands fa-twitter"></i></button></a>
+                        <a href="#"><button class="btn2"><i class="fa-brands fa-google"></i></button></a>
+                        <a href="#"><button class="btn2"><i class="fa-brands fa-instagram"></i></button></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6  pb-5">
+                    <h1 class="mb-5">HAVE <span class="clr2">QUESTIONS?</span></h1>
+                    <form action="">
+                        <input type="text" placeholder="Your Name" class="w-100 p-2 mb-3 out bg-transparent">
+                        <input type="text" placeholder="Your Email" class="w-100 p-2 mb-3 out bg-transparent">
+                        <textarea name="" id="" rows="5" placeholder="Your Message" class="w-100 p-2 out bg-transparent"></textarea>
+                        <button class="btn1 mt-3">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-white bgr1">
+        <div class="container-lg mx-auto p-5 row">
+            
+                <div class="col-md-6 text-center text-md-start align-content-center">
+                    <p>Copyright © 2025 Fitness Trainer</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end align-content-center">
+                    <p>powered by Fitness Trainer</p>
+                </div>
+            </div>
+        </div>
+
+
+       <script>
+const swiper = new Swiper('.mySwiper', {
+    loop: true,
+
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 2,
+           
+        },
+        768: {
+            slidesPerView: 3,
+           
+        },
+        1024: {
+            slidesPerView: 5,
+           
+        }
+    }
+});
+</script>
+
+
+</body>
+</html>
+                   
